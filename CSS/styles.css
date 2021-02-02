@@ -1,0 +1,270 @@
+/* GENERAL STYLES */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+h2,
+button{
+    text-transform: uppercase;
+}
+
+/* HEADER LAYOUT PROPERTIES */
+
+h1{
+    top: 76px;
+    left: 177px;
+    width: 235px;
+    height: 56px;
+    
+    /* UI PROPERTIES */
+
+    text-align: left;
+    font: normal normal normal 48px/57px 'Montserrat', sans-serif;
+    letter-spacing: 4.8px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* HAMBURGER MENU LAYOUT PROPERTIES */
+
+.hamburgerMenu i{
+    top: 86px;
+    left: 83px;
+    width: 56px;
+    height: 34px;
+    font-size: 4rem;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+    /* UI PROPERTIES */
+
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.mainHeader{
+    background-image: url("../Images/Image\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vw;
+    position: relative;
+}
+
+.hamburgerLogo{    
+    display: flex;
+    margin-left: 50px;
+    padding-top: 85px;
+    /* border: 2px solid red; */
+}
+
+h2{
+    /* LAYOUT PROPERTIES */
+    top: 442px;
+    left: 262px;
+    width: 1396px;
+    height: 77px;   
+
+    
+    font: normal normal bold 45px/69px 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+p{
+    top: 551px;
+    left: 550px;
+    width: 820px;
+    height: 81px;
+    margin: 0 auto;
+    
+
+    text-align: center;
+    font: normal normal normal 25px/44px 'Montserrat', sans-serif;;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.heroSection{
+    position: absolute;
+    top: 55%;
+    margin-left: 6.2rem;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+/* BUTTONS PROPERTIES */
+
+.tryItNowButtons button{
+    top: 675px;
+    left: 818px;
+    width: 284px;
+    height: 79px;
+    margin-top: 40px;
+
+    background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    opacity: 1;
+}
+
+.tryItNowButtons button:hover{
+    background: transparent linear-gradient(90deg, #e97a13 0%, #d2c9eb 34%, #312df5 65%, #57eb63 100%) 0% 0% no-repeat padding-box;
+}
+
+ button{
+    top: 700px;
+    left: 881px;
+    width: 156px;
+    height: 27px;
+    
+    text-align: center;
+    font: normal normal bold 23px/28px 'Montserrat', sans-serif;
+    letter-spacing: 2.3px;
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* RED SECTION PROPERTIES */
+
+.redSection{
+    position: relative;
+    padding-bottom: 150px;   
+    background-color: #D34848;
+}
+
+.whiteTryItNowButtons{
+    top: 1188px;
+    left: 1657px;
+    width: 122px;
+    height: 22px;
+
+    text-align: left;
+    font: normal normal bold 18px/23px 'Montserrat', sans-serif;
+    letter-spacing: 1.8px;
+    color: #D1346E;
+    opacity: 1;
+}
+
+.whiteTryItNowButtons button{
+    top: 1168px;
+    left: 1593px;
+    width: 248px;
+    height: 62px;
+    margin-left: 85rem;   
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    color: #D1346E;
+    border: none;
+    opacity: 1;
+}
+
+.container{
+    display: flex;
+    /* position: relative; */
+    /* justify-content: space-between; */
+    /* border: 2px solid green; */
+}
+
+.imageContainer{
+    /* align-items: flex-end; */
+    /* border: 2px solid black; */
+}
+
+
+.whiteSeeDemoButtons button{
+    top: 1781px;
+    left: 184px;
+    width: 338px;
+    height: 81px;
+    margin-top: 15px;
+
+    font: normal normal bold 23px/28px 'Montserrat', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    letter-spacing: 2.3px;
+    color: #D1346E;
+    border: none;
+    opacity: 1;
+}
+
+.whiteSeeDemoButtons button:hover,
+.whiteTryItNowButtons button:hover{
+    background: transparent linear-gradient(90deg, #28da78 0%, #b49df1 34%, #e0f3b3 65%, #f39556 100%) 0% 0% no-repeat padding-box;
+}
+
+.textContainer{
+    margin-top: 200px;
+    margin-left: -65px;   
+    /* border: 2px solid red; */
+}
+
+.textContainer h2{
+    top: 1504px;
+    left: 184px;
+    width: 773px;
+    height: 88px;
+
+    text-align: left;
+    font: normal normal bold 54px/80px 'Montserrat', sans-serif;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.textContainer p{
+    top: 1619px;
+    left: 184px;
+    width: 879px;
+    height: 121px;
+    margin-left: -5px;
+
+    text-align: left;
+    font: normal normal normal 41px/51px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    color: #0B0B0B;
+    opacity: 1;
+}
+
+.imageContainer{
+    position: absolute;
+    top: 15%;
+    margin-left: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.speaker1{
+    top: 1312px;
+    left: 1187px;
+    width: 254px;
+    height: 397px;
+    margin-left: 80px;
+    /* margin: 50px 30px 80px 160px; */
+    /* border: 2px solid black; */
+
+    background: transparent url('img/medium17.png') 0% 0% no-repeat padding-box;    
+    opacity: 1;
+}
+
+.speaker2{
+    top: 1529px;
+    left: 1509px;
+    width: 254px;
+    height: 397px;
+    margin-top: 40%; 
+
+    background: transparent url('img/medium27.png') 0% 0% no-repeat padding-box;    
+    opacity: 1;
+    /* border: 2px solid green; */
+}
+
