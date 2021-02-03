@@ -15,6 +15,49 @@ button{
     text-transform: uppercase;
 }
 
+/* IMAGE SLIDER */
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* .slides{
+    width: 500px;
+    height: 500px;
+    display: flex;
+} */
+
+/* .slides input{
+    display: none;
+} */
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+/* MANUAL SLIDE NAVIGATION */
+
+.navigationManual{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.manualButton{
+
+}
+
+
+
 /* HEADER LAYOUT PROPERTIES */
 
 h1{
@@ -26,11 +69,50 @@ h1{
     /* UI PROPERTIES */
 
     text-align: left;
-    font: normal normal normal 48px/57px 'Montserrat', sans-serif;
+    font: normal normal normal 28px/47px 'Montserrat', sans-serif;
     letter-spacing: 4.8px;
     color: #FFFFFF;
     opacity: 1;
 }
+
+/* PRICING PAGE */
+
+.pricingHeader{
+    background-color: #191919;
+    height: 55vw;
+    position: relative;
+}
+
+.pricingHeader i{
+    top: 107px;
+    left: 102px;
+    width: 56px;
+    height: 34px;
+    margin-top: 20px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pricingTextContainer{
+    position: absolute;
+    top: 50%;    
+}
+
+.pricingTextContainer h2,
+.pricingTextContainer p{
+    color: #FFFFFF;
+}
+
+.pricingTextContainer h2{
+    margin-left: 120px;
+}
+
+.pricingTextContainer p{
+    margin-left: -18px;
+}
+
+
 
 /* HAMBURGER MENU LAYOUT PROPERTIES */
 
@@ -39,7 +121,7 @@ h1{
     left: 83px;
     width: 56px;
     height: 34px;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FFFFFF;
     padding-top: 10px;
 
@@ -58,12 +140,14 @@ h1{
     position: relative;
 }
 
-.hamburgerLogo{    
+.hamburgerLogo,
+.pricingHeader .hamburgerLogo{    
     display: flex;
     margin-left: 50px;
     padding-top: 85px;
     /* border: 2px solid red; */
 }
+
 
 h2{
     /* LAYOUT PROPERTIES */
@@ -266,5 +350,70 @@ p{
     background: transparent url('img/medium27.png') 0% 0% no-repeat padding-box;    
     opacity: 1;
     /* border: 2px solid green; */
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #5E33D1;
+    padding-bottom: 100px;
+}
+
+.email i{
+    top: 6545px;
+    left: 139px;
+    width: 37px;
+    height: 29px;
+    font-size: 4rem;
+    margin-top: 120px;
+    margin-left: 90px;
+    color: #FFFFFF;
+
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.email p{
+    top: 6537px;
+    left: 202px;
+    width: 604px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: -40px;
+
+    text-align: left;
+    font: normal normal normal 35px/41px Helvetica Neue;
+    letter-spacing: 3.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+footer h1{
+    top: 6676px;
+    left: 824px;
+    width: 235px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    /* text-align: left; */
+    font: normal normal normal 28px/47px Helvetica Neue;
+    letter-spacing: 4.8px;
+    color: #FFFFFF;
+    opacity: 1; 
+}
+
+.footerPage p{
+    top: 6777px;
+    left: 560px;
+    width: 811px;
+    height: 28px;
+    margin-top: 20px;
+
+    text-align: left;
+    font: normal normal normal 24px/29px Helvetica Neue;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    opacity: 1; 
 }
 
