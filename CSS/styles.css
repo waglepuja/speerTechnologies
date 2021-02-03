@@ -24,15 +24,15 @@ button{
     overflow: hidden;
 }
 
-/* .slides{
+.slides{
     width: 500px;
     height: 500px;
     display: flex;
-} */
+}
 
-/* .slides input{
+.slides input{
     display: none;
-} */
+}
 
 .slide{
     width: 20%;
@@ -48,15 +48,19 @@ button{
 
 .navigationManual{
     position: absolute;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
 .manualButton{
-
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
 
-
+.manualButton:not(last-child){
+    margin-right: 40px;
+}
 
 /* HEADER LAYOUT PROPERTIES */
 
@@ -64,10 +68,7 @@ h1{
     top: 76px;
     left: 177px;
     width: 235px;
-    height: 56px;
-    
-    /* UI PROPERTIES */
-
+    height: 56px; 
     text-align: left;
     font: normal normal normal 28px/47px 'Montserrat', sans-serif;
     letter-spacing: 4.8px;
@@ -89,7 +90,6 @@ h1{
     width: 56px;
     height: 34px;
     margin-top: 20px;
-
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -112,8 +112,6 @@ h1{
     margin-left: -18px;
 }
 
-
-
 /* HAMBURGER MENU LAYOUT PROPERTIES */
 
 .hamburgerMenu i{
@@ -123,10 +121,7 @@ h1{
     height: 34px;
     font-size: 3rem;
     color: #FFFFFF;
-    padding-top: 10px;
-
-    /* UI PROPERTIES */
-
+    padding-top: 10px;   
     background: 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -144,19 +139,15 @@ h1{
 .pricingHeader .hamburgerLogo{    
     display: flex;
     margin-left: 50px;
-    padding-top: 85px;
-    /* border: 2px solid red; */
+    padding-top: 85px;   
 }
 
 
-h2{
-    /* LAYOUT PROPERTIES */
+h2{    
     top: 442px;
     left: 262px;
     width: 1396px;
-    height: 77px;   
-
-    
+    height: 77px;  
     font: normal normal bold 45px/69px 'Montserrat', sans-serif;
     letter-spacing: 5px;
     color: #FFFFFF;
@@ -168,9 +159,7 @@ p{
     left: 550px;
     width: 820px;
     height: 81px;
-    margin: 0 auto;
-    
-
+    margin: 0 auto;   
     text-align: center;
     font: normal normal normal 25px/44px 'Montserrat', sans-serif;;
     letter-spacing: 3.2px;
@@ -182,8 +171,7 @@ p{
     position: absolute;
     top: 55%;
     margin-left: 6.2rem;
-    text-align: center;
-    /* border: 2px solid red; */
+    text-align: center;    
 }
 
 /* BUTTONS PROPERTIES */
@@ -194,7 +182,6 @@ p{
     width: 284px;
     height: 79px;
     margin-top: 40px;
-
     background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
     border-radius: 79px;
     opacity: 1;
@@ -208,8 +195,7 @@ p{
     top: 700px;
     left: 881px;
     width: 156px;
-    height: 27px;
-    
+    height: 27px;    
     text-align: center;
     font: normal normal bold 23px/28px 'Montserrat', sans-serif;
     letter-spacing: 2.3px;
@@ -231,7 +217,6 @@ p{
     left: 1657px;
     width: 122px;
     height: 22px;
-
     text-align: left;
     font: normal normal bold 18px/23px 'Montserrat', sans-serif;
     letter-spacing: 1.8px;
@@ -244,8 +229,7 @@ p{
     left: 1593px;
     width: 248px;
     height: 62px;
-    margin-left: 85rem;   
-
+    margin-left: 85rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 79px;
     color: #D1346E;
@@ -254,15 +238,7 @@ p{
 }
 
 .container{
-    display: flex;
-    /* position: relative; */
-    /* justify-content: space-between; */
-    /* border: 2px solid green; */
-}
-
-.imageContainer{
-    /* align-items: flex-end; */
-    /* border: 2px solid black; */
+    display: flex;   
 }
 
 
@@ -272,7 +248,6 @@ p{
     width: 338px;
     height: 81px;
     margin-top: 15px;
-
     font: normal normal bold 23px/28px 'Montserrat', sans-serif;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 79px;
@@ -289,8 +264,7 @@ p{
 
 .textContainer{
     margin-top: 200px;
-    margin-left: -65px;   
-    /* border: 2px solid red; */
+    margin-left: -65px;    
 }
 
 .textContainer h2{
@@ -298,7 +272,6 @@ p{
     left: 184px;
     width: 773px;
     height: 88px;
-
     text-align: left;
     font: normal normal bold 54px/80px 'Montserrat', sans-serif;
     letter-spacing: 7.4px;
@@ -312,7 +285,6 @@ p{
     width: 879px;
     height: 121px;
     margin-left: -5px;
-
     text-align: left;
     font: normal normal normal 41px/51px 'Montserrat', sans-serif;
     letter-spacing: 4px;
@@ -323,8 +295,7 @@ p{
 .imageContainer{
     position: absolute;
     top: 15%;
-    margin-left: 50%;
-    /* border: 2px solid yellow; */
+    margin-left: 50%;    
 }
 
 .speaker1{
@@ -332,10 +303,7 @@ p{
     left: 1187px;
     width: 254px;
     height: 397px;
-    margin-left: 80px;
-    /* margin: 50px 30px 80px 160px; */
-    /* border: 2px solid black; */
-
+    margin-left: 80px;  
     background: transparent url('img/medium17.png') 0% 0% no-repeat padding-box;    
     opacity: 1;
 }
@@ -345,11 +313,9 @@ p{
     left: 1509px;
     width: 254px;
     height: 397px;
-    margin-top: 40%; 
-
+    margin-top: 40%;
     background: transparent url('img/medium27.png') 0% 0% no-repeat padding-box;    
-    opacity: 1;
-    /* border: 2px solid green; */
+    opacity: 1;    
 }
 
 /* FOOTER */
@@ -368,7 +334,6 @@ footer{
     margin-top: 120px;
     margin-left: 90px;
     color: #FFFFFF;
-
     background-color: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -380,7 +345,6 @@ footer{
     height: 40px;
     margin-left: 180px;
     margin-top: -40px;
-
     text-align: left;
     font: normal normal normal 35px/41px Helvetica Neue;
     letter-spacing: 3.5px;
@@ -395,8 +359,6 @@ footer h1{
     height: 56px;
     margin: 0 auto;
     margin-top: 80px;
-
-    /* text-align: left; */
     font: normal normal normal 28px/47px Helvetica Neue;
     letter-spacing: 4.8px;
     color: #FFFFFF;
@@ -409,7 +371,6 @@ footer h1{
     width: 811px;
     height: 28px;
     margin-top: 20px;
-
     text-align: left;
     font: normal normal normal 24px/29px Helvetica Neue;
     letter-spacing: 2.4px;
